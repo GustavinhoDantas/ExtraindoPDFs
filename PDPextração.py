@@ -24,4 +24,4 @@ with open(input_pdf_path, "rb") as input_pdf:
     with open(output_pdf_path, "wb") as output_pdf:
         writer.write(output_pdf)
 
-print("Novo PDF criado com sucesso:", output_pdf_path)
+print("PDF criado com sucesso:", output_pdf_path)
